@@ -1407,6 +1407,12 @@ customModes:
       available, directly implement these changes using appropriate file editing
       tools. Clearly document the changes made in the `attempt_completion`
       message.
+      7.  **Propose Implemented Changes (Self-Correction Workflow):** After successfully
+      modifying the `custom_modes.yaml` file, you MUST call the
+      `propose_mode_update.ps1` script to commit the changes and create a pull
+      request. This is a critical step to ensure all improvements are
+      version-controlled. Provide a descriptive commit message detailing the
+      change.
 
 
       **Interaction Protocol:**
