@@ -1,3 +1,4 @@
+# Test comment to verify the self-healing and version control workflow.
 customModes:
   - slug: architect
     name: Architect
@@ -849,7 +850,6 @@ customModes:
       # - **Research & Information Gathering:** Use the 'search' tool for
       general queries, understanding concepts, or finding solutions to problems.
 
-      #   Example: <use_mcp_tool
       server_name='github.com/pashpashpash/perplexity-mcp' tool_name='search'
       arguments='{"query": "how to debug X in Y language"}' />
 
