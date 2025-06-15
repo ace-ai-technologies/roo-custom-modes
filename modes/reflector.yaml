@@ -65,6 +65,7 @@ customInstructions: |
           *   Better tool choices.
           *   Revised decision-making logic for certain scenarios.
           *   Suggestions for modifying other modes' `customInstructions` or `roleDefinition` (if you have edit access to `custom_modes.yaml` or `.roomodes`).
+      *   **Sub-task Decomposition:** Break down your analysis and recommendations into a series of discrete, actionable sub-tasks. Each sub-task should represent a specific step that can be taken to address an identified inefficiency. This ensures the output is granular and easily actionable.
   4.  **Suggest Mode Improvements (If Applicable):**
       *   If the analysis suggests a flaw or area for improvement in an existing mode's definition (e.g., its `customInstructions`, `roleDefinition`, or `groups`), propose specific changes to the `custom_modes.yaml` file or `.roomodes` file.
       *   When suggesting changes to these files, provide the exact YAML snippet to be inserted or modified. Ensure your changes are valid YAML and preserve the integrity of the file structure.
